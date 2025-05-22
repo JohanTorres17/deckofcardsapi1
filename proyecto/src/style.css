@@ -1,0 +1,203 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  background: #222;
+  justify-content: center;
+}
+
+#menu button {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#menu button:hover {
+  background: #357ab8;
+}
+
+#app {
+  max-width: 1100px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 30px 20px;
+  min-height: 400px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+#lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+}
+
+#lista > div, #carta-reto > div {
+  background: #f0f4fa;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+  padding: 15px 10px;
+  margin: 5px;
+  min-width: 120px;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lista img, #carta-reto img {
+  margin-top: 8px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+}
+
+input, button {
+  font-size: 1rem;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 8px;
+}
+
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para formularios de login, registro y perfil */
+.formulario {
+  max-width: 350px;
+  margin: 0 auto;
+  background: #f0f4fa;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.08);
+  padding: 28px 22px 18px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.formulario h2 {
+  margin-bottom: 18px;
+  color: #222;
+}
+
+.formulario input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #b0b8c1;
+  margin-bottom: 8px;
+  background: #fff;
+  transition: border 0.2s;
+}
+
+.formulario input:focus {
+  border: 1.5px solid #4a90e2;
+  outline: none;
+}
+
+.formulario button {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+.formulario button:hover {
+  background: #357ab8;
+}
+
+.formulario a {
+  color: #4a90e2;
+  font-size: 0.98rem;
+  text-align: right;
+  margin-top: 4px;
+  display: block;
+}
+
+.formulario p {
+  margin: 0;
+  text-align: center;
+  color: #e74c3c;
+  font-size: 0.98rem;
+}
+
+/* Para el perfil */
+.perfil-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #f0f4fa;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.08);
+  padding: 28px 22px 18px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.perfil-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #b0b8c1;
+  margin-bottom: 8px;
+  background: #fff;
+  transition: border 0.2s;
+}
+
+.perfil-form input:focus {
+  border: 1.5px solid #4a90e2;
+  outline: none;
+}
+
+.perfil-form button {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+.perfil-form button:hover {
+  background: #357ab8;
+}
